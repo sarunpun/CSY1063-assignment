@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!--character encoding-->
   <meta charset="UTF-8">
+
+  <!--Viewport mega tag for responsive design-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+
+  <!--Page title-->
+  <title>Portfolio  |  Contact</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
+  <!--header section for page-->
+  <header>
+    
+    <!--Navigation bar-->
+    <nav class="navbar">
 
-<header>
+      <!--Website title-->
+      <h1>MyPortfolio</h1>
 
 
-  <nav>
-    <ul id="nav-links">
-      <li><a href="index.html">Home Page</a></li>
-      <li><a href="project.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="videoDemo.html">Video Demo</a></li>
-      <li><a href="siteReport.html">Site Report</a></li>                                                                                                                                                                                                                                 
-    </ul>
-  </nav>
-</header>
+      <!--Navigation links-->
+      <ul class="nav-links">
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="videoDemo.html">Video Demo</a></li>
+          <li><a href="siteReport.html">Site Report</a></li>                                                                                                                                                                                                                                 
+      </ul>
+    </nav>
+  </header>
 
+  <!--main content of the page-->
+  <main>
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <!--Form for contact page-->
+      <form>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </form>
+
+    </div>
+  </main>
+
+  <!--footer of the page-->
+  <footer>
+    <p>&copy; 2026 Aayush Pun  | All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
