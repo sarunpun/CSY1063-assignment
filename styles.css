@@ -244,6 +244,52 @@ button:hover {
     font-size: 16px;
     line-height: 1.6;
 }
+
+/* ================= CSS for site report page ================= */
+
+.report {
+    padding: 20px 15px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.report h2 {
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    margin-bottom: 14px;
+}
+
+.report h3 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* ================= paragraph styling ================= */
+
+.report p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+}
+
+/* ================= validation images ================= */
+
+.validation img {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.validation p {
+    font-size: 12px;
+}
+
+
 /* ================= FOOTER ================= */
 
 footer {
@@ -325,7 +371,7 @@ footer {
 
     form input,
     form textarea {
-        width: 100px;
+        width: 100%;
     }
 
     /* ================= video framing for mobile ================= */
@@ -338,5 +384,36 @@ footer {
         font-size: 22px;
         margin-bottom: 15px;
     }
-}
 
+    /* ================= site report ================= */
+
+    .report {
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+
+    .report h2 {
+        font-size: 16px;
+    }
+
+    .report h3 {
+        font-size: 14px;
+    }
+
+    .report p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .validation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .validation img {
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+}
